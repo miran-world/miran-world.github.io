@@ -1,0 +1,94 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* BASIC ELEMENTS */
+@media (max-width: 767px) {/*모바일*/
+  /* works on @xs; small display(mobile) */
+  body {
+    padding-top: 75px;
+  }
+  img.image_title{
+    width:100%;
+  }
+
+  h3.index_h3{
+    font-size: 1.3em;
+  }
+
+  img.miran_title{
+    width:40%;
+  }
+
+}
+@media (min-width: 768px) {/*pc*/
+  /* works on general display(desktop) */
+  body {
+    /* padding-top is 75 + div#cmc-nav_banner.height */
+    padding-top: 120px;
+  }
+
+  img.image_title{
+    width:90%;
+  }
+
+img.mfc2{
+  margin: 0;
+}
+
+div.container{
+  width: 1000px;
+}
+
+img.miran_title{
+  width:25%;
+  padding-top:5px;
+}
+
+}
+
+@media (max-width: 767px) {
+  div.cmc-nav-list{
+    padding-top: 0px
+  }
+}
+
+
+@media (min-width: 768px) {
+  div.cmc-nav-list{
+    padding-top: 40px
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  div.introduction_img{
+    padding-left: 100px;
+  }
+  div.introduction_font{
+    font-size :0.8em;
+  }
+}
+
+/* winterisCold_  */
+#columns{
+  column-width:350px;
+  column-gap: 15px;
+}
+#columns figure{
+  display: inline-block;
+ 
+  margin:0;
+  margin-bottom: 15px;
+  padding:10px;
+  box-shadow: 2px 2px 5px rgba(105, 101, 101, 0.5);
+}
+#columns figure img{
+  width:100%;
+}
+#columns figure figcaption{
+  border-top:1px solid rgba(0,0,0,0.2);
+  padding:10px;
+  margin-top:11px;
+}

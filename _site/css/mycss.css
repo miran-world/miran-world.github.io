@@ -20,6 +20,7 @@
     width:40%;
   }
 
+
 }
 @media (min-width: 768px) {/*pc*/
   /* works on general display(desktop) */
@@ -28,9 +29,7 @@
     padding-top: 120px;
   }
 
-  img.image_title{
-    width:90%;
-  }
+
 
 img.mfc2{
   margin: 0;

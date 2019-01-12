@@ -20,6 +20,13 @@
     width:40%;
   }
 
+  a img.map_size{
+    width:300px;
+    height: 250px;
+  }
+  table.map_table{
+    width:300px;
+  }
 
 }
 @media (min-width: 768px) {/*pc*/
@@ -48,6 +55,14 @@ a img.index_gallery{
    overflow:hidden;
 }
 
+a img.map_size{
+  width:460px;
+  height: 340px;
+}
+
+table.map_table{
+  width:460px;
+}
 
 }
 

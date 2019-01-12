@@ -64,6 +64,19 @@ table.map_table{
   width:460px;
 }
 
+img.psy_miran{
+  width:60%;
+  float: right;
+}
+
+p.psy_p{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+img.psy_miran2{
+  width:40%;
+}
+
 }
 
 @media (max-width: 767px) {

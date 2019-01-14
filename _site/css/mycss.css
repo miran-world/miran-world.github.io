@@ -68,6 +68,10 @@ img.psy_miran{
   width:60%;
   float: right;
 }
+div p.p_miran_psy{
+  text-align:justify;
+  width:70%;
+}
 
 p.psy_p{
   margin-top:0px;
